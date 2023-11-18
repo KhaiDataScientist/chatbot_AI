@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Đăng nhập</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../../static/chatbox_ai/css/account.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Container -->
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <img class="img-logo" src="../../static/chatbox_ai/img/ai-logo.png" alt="" />
+          <h1>
+            <a href="index.html">KAITopical</a>
+          </h1>
+        </div>
+        <!-- Content -->
+        <div class="content">
+          <h1><a href="index.html">Home</a></h1>
+          <h1><a class="login-active" id="login-active" href="#">Login</a></h1>
+          <h1>
+            <a class="register-active" id="register-active" href="#"
+              >Register</a
+            >
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- Login -->
+    <div class="login" id="login">
+      <a href="index.html"><i class="fa-solid fa-xmark icon-close"></i></a>
+
+      <h1>Đăng nhập</h1>
+      <form action="#">
+        <!-- Email -->
+        <div class="input-box">
+          <i class="fa-regular fa-envelope icon"></i>
+          <input type="email" required />
+          <label>Email</label>
+        </div>
+
+        <!-- Password -->
+        <div class="input-box">
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" autocomplete="new-password" required />
+          <label>Passoword</label>
+        </div>
+
+        <!-- Forgot password -->
+        <div class="remember-forgot">
+          <label><input type="checkbox" />Ghi nhớ mật khẩu</label>
+          <a href="#">Quên mật khẩu</a>
+        </div>
+
+        <!-- Login   -->
+        <button href="./chat.html" type="submit" class="btn">
+          <a href="chat.html">Đăng nhập</a>
+        </button>
+
+        <!-- Register -->
+        <div class="login-register">
+          <p>Chưa có tài khoản? <a id="register-link">Đăng ký ngay</a></p>
+        </div>
+      </form>
+    </div>
+
+    <!-- Register -->
+    <div class="register" id="reg">
+      <i class="fa-solid fa-xmark icon-close" id="login-link"></i>
+
+      <h1>Đăng ký</h1>
+
+      <form action="#">
+        <div class="input-box">
+          <i class="fa-solid fa-font icon"></i>
+          <input type="text" required />
+          <label>Họ và tên</label>
+        </div>
+
+        <div class="input-box">
+          <i class="fa-regular fa-envelope icon"></i>
+          <input type="email" required />
+          <label>Email</label>
+        </div>
+
+        <div class="input-box">
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" autocomplete="new-password" required />
+          <label>Passoword</label>
+        </div>
+
+        <div class="input-box">
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" required />
+          <label>Nhập lại mật khẩu</label>
+        </div>
+
+        <button href="#" type="submit" class="btn">Đăng ký</button>
+      </form>
+    </div>
+
+    <script src="../../static/chatbox_ai/javascript/account.js"></script>
+  </body>
+</html>

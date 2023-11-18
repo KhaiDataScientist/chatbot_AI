@@ -1,0 +1,141 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: aquamarine; */
+}
+
+.container .left-content {
+  float: left;
+  width: 20vw;
+  height: 100vh;
+  position: relative; /* add this line */
+}
+
+.container .left-content .addchat {
+  height: 10vh;
+  background-color: #fff;
+  margin: 2vh;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.container .left-content .addchat .logo {
+  height: 40px;
+}
+
+.container .left-content .listview {
+  height: 70vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.container .left-content .listview ul {
+  margin: 0;
+  padding-inline-start: 10px;
+}
+
+.container .left-content .listview ul li {
+  list-style-type: none;
+  font-size: larger;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .left-content .listview ul li:hover {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.container .left-content .account {
+  height: 10vh;
+  position: absolute; /* add this line */
+  bottom: 0; /* add this line */
+  background-color: cadetblue;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container .left-content .account .avatar {
+  margin-left: 20px;
+  height: 40px;
+}
+
+.container .left-content .account h2 {
+  padding: 10px;
+}
+
+.container .right-content {
+  float: right;
+  width: 80vw;
+  height: 100vh;
+  /* background-color: darkgoldenrod; */
+  position: relative;
+}
+
+.container .right-content .chat-content {
+  /* background-color: cornflowerblue; */
+  width: 100%;
+  height: 90vh;
+}
+
+.container .right-content .chat-box {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.container .right-content .chat-box .chat {
+  width: 90%;
+  height: 8vh;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.container .right-content .chat-box .chat input {
+  width: 100%;
+  height: 80%;
+  margin: 0 10px;
+  border: none;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.container .right-content .chat-box .chat .send-button {
+  height: 80%;
+  width: 10%;
+  border-radius: 20%;
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 17px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
