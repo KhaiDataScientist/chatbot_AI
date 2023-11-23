@@ -103,6 +103,9 @@ body {
   align-items: center;
   width: 100%;
   justify-content: center;
+
+
+
 }
 
 .container .right-content .chat-box .chat {
@@ -139,3 +142,4 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+

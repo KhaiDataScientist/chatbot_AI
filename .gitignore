@@ -116,4 +116,6 @@ node_modules/
 .yarn-integrity
 
 # dotenv environment variables file
-my_chatbot/my_chatbot/chat_bot/.env
+my_chatbot/chatbot_ai/.env
+
+.DS_Store
