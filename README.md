@@ -1,5 +1,9 @@
-<img src="https://images.prismic.io/intuzwebsite/d9daef05-a416-4e84-b0f8-2d5e2e3b58d8_A+Comprehensive+Guide+to+Building+an+AI+Chatbot%402x.png?auto=compress,format" width="320">
+
+<div align="center">
+  <img src="https://images.prismic.io/intuzwebsite/d9daef05-a416-4e84-b0f8-2d5e2e3b58d8_A+Comprehensive+Guide+to+Building+an+AI+Chatbot%402x.png?auto=compress,format" alt="Image Description">
+</div>
 # Chatbot AI for supporting people with mental health
+
 In this project I created a website where you can have a conversation with a chatbot and it will provide for you some useful information related to mental health.
 
 ## Table of Contents
