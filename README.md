@@ -12,6 +12,7 @@ In this project I created a website where you can have a conversation with a cha
 - [Introduction](#introduction)
 - [Features](#features)
 - [Set up](#setup)
+- [Contributor](#contributor)
 - [Contribution](#contribution)
 
 
@@ -52,8 +53,17 @@ Once `pip` has finished downloading the dependencies:
 
 Now your app is hosted on your own server, feel free to modify and add in functionality based on your preference
 
+## Contributors
+
+Special thanks to the following contributors for their valuable contributions to this project:
+
+- [Thao](https://github.com/phthao1)
+
+
+
 ## Contribution
 - This project needs to be developed with community feature and the functionality of a chatbot. Your creativity and contribution would be valuable to our project!!!
+- 
 
 
 
