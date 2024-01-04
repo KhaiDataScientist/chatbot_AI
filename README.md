@@ -57,13 +57,12 @@ Now your app is hosted on your own server, feel free to modify and add in functi
 
 Special thanks to the following contributors for their valuable contributions to this project:
 
-- [Thao](https://github.com/phthao1)
+- [Nguyen Huynh Phuong Thao](https://github.com/phthao1)
 
 
 
 ## Contribution
 - This project needs to be developed with community feature and the functionality of a chatbot. Your creativity and contribution would be valuable to our project!!!
-- 
 
 
 
