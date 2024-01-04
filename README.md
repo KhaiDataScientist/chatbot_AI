@@ -5,25 +5,44 @@ In this project I created a website where you can have a conversation with a cha
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
+- [Set up](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- 
 
 ## Introduction
-
-Provide an introduction to your project, explaining its purpose and what problem it solves.
+In this project I created a website where you can have a conversation with a chatbot and it will provide for you some useful information related to mental health.
 
 ## Features
+In the website, there are several functionalities:
+- Community: where you can share your posts or your stories about mental health 
+- Chatbot: chat with chatbot about mental health
+## Set up
 
-List the key features and functionalities of your project.
+The first thing to do is to clone the repository. In your terminal, type this command
 
-## Installation
+```sh
+$ mkdir chatbot_project
+$ cd chatbot_project
+$ git clone https://github.com/KhaiDataScientist/chatbot_AI.git
+```
 
-Provide instructions on how to install and set up your project. Include any prerequisites, dependencies, or system requirements.
+Create a virtual environment to install dependencies in and activate it:
 
-```bash
-# Example installation steps
-$ git clone https://github.com/YourUsername/YourRepo.git
-$ cd YourRepo
-$ npm install
+```sh
+$ pip install virtualenv
+$ python<version> -m venv venv
+$ source venv/bin/activate
+```
+Then install the dependencies:
+
+```sh
+(env)$ pip install -r requirements.txt
+```
+
+Once `pip` has finished downloading the dependencies:
+```sh
+(env)$ python manage.py runserver
+```
+
+
+
