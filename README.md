@@ -12,7 +12,7 @@ In this project I created a website where you can have a conversation with a cha
 - [Introduction](#introduction)
 - [Features](#features)
 - [Set up](#setup)
-- [Contributors](#contributor)
+- [Contributors](#contributors)
 - [Contribution](#contribution)
 
 
